@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .square {
+    @apply m-2 bg-purple md:h-32 h-20 flex items-center justify-center font-CarterOne font-extrabold text-6xl hover:cursor-pointer hover:bg-midPurple border-2 border-yellow-400 rounded-3xl;
+  }
+}
